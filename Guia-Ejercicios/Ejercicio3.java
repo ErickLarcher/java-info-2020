@@ -4,6 +4,7 @@ public class Ejercicio3 {
     public static void main(String[] args){
 
         Scanner scan = new Scanner(System.in);
+<<<<<<< HEAD
         int nota;
         int continuar = 1;
 
@@ -28,6 +29,24 @@ public class Ejercicio3 {
 
         } 
                 scan.close();
+=======
+        int nota = scan.nextInt();
+        scan.close();
+
+
+        if(nota > 92) {
+            System.out.println("Excelente!!!");
+        } else if (nota > 84) {
+            System.out.println("Sobresaliente!!!");
+        }else if (nota > 74){
+            System.out.println("Distinguido!!!!!!!!!");
+
+        }else if(nota > 59) {
+            System.out.println("Bueno");
+        }else {
+            System.out.println("Desaprobado:C");
+        }
+>>>>>>> 5760fc22ba332b60deaf906dc6f2c923bb59dc50
     }
     
 }
