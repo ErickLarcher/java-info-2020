@@ -7,27 +7,39 @@ public class Ejercicio4 {
         //creamos un objeto scanner que toma los valores de entrada por consola
         Scanner scan = new Scanner(System.in);
 
+        System.out.print("Ingrese el día con un número del 1 al 7:");
         int diaNum = scan.nextInt();// escanea el siguiente entero que se ingresa
         scan.close(); //es necesario cerrar el scanner si no se utiliza mas.
 
 
-        if (diaNum == 1 ) {
-            System.out.println("Domingo");
-        }else if (diaNum == 2) {
-            System.out.println("Lunes");
-        }else if (diaNum == 3 ) {
-        	System.out.println("Martes");
-        	
-        }else if (diaNum == 4) {
-        	System.out.println("Miercoles");
-        }else if (diaNum == 5) {
-        	System.out.println("Jueves");
-        }else if(diaNum == 6) {
-        	System.out.println("Viernes");
-        }else if(diaNum == 7) {
-        	System.out.println("Sabado");
-        }
+        imprimirDía(diaNum);
+    }
 
+    public static void imprimirDía(int día){
+
+        switch(día) {
+            case 1:
+                System.out.println("Domingo!");
+                break;
+            case 2:
+                System.out.println("Lunes!!!!!");
+                break;
+            case 3:
+                System.out.print("Martes!!!");
+                break;
+            case 4:
+                System.out.println("Miercoles!!!!!");
+                break;
+            case 5:
+                System.out.println("Juevesssssss!!");
+                break;
+            case 6:
+                System.out.println("Viernes!!!!");
+                break;
+            case 7:
+                System.out.println("Sabado");
+                break;
+        }
 
     }
 }

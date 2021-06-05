@@ -1,52 +1,42 @@
 import java.util.Scanner;
-public class Ejercicio3 {
 
+public class Ejercicio3 {
+    
+    /*Programa que verifica la nota de un alumno y devuelve por pantalla su estado */
     public static void main(String[] args){
 
         Scanner scan = new Scanner(System.in);
-<<<<<<< HEAD
-        int nota;
+
+        int nota = 0;
         int continuar = 1;
 
-        while(continuar == 1){   
-                
-                System.out.println("Ingrese la nota: ");
-                nota = scan.nextInt();
+        
+        while ( continuar == 1){ 
+            System.out.print("Ingrese la nota del alumno: ");
+            nota = scan.nextInt();
+            imprimePorPantalla(nota);
 
-                if(nota > 92) {
-                    System.out.println("Excelente!!!");
-                } else if (nota > 84) {
-                    System.out.println("Sobresaliente!!!");
-                }else if (nota > 74){
-                    System.out.println("Distinguido!!!!!!!!!");
-
-                }else if(nota > 59) {
-                    System.out.println("Bueno");
-                }else {
-                    System.out.println("Desaprobado:C");
-                }
-            System.out.println("Si quiere continuar las operaciones, digite 1, caso contrario, ingrese cualquier otro  numero.");
-
-        } 
-                scan.close();
-=======
-        int nota = scan.nextInt();
-        scan.close();
-
-
-        if(nota > 92) {
-            System.out.println("Excelente!!!");
-        } else if (nota > 84) {
-            System.out.println("Sobresaliente!!!");
-        }else if (nota > 74){
-            System.out.println("Distinguido!!!!!!!!!");
-
-        }else if(nota > 59) {
-            System.out.println("Bueno");
-        }else {
-            System.out.println("Desaprobado:C");
+            System.out.println("Si quiere continuar las operaciones, digite 1, caso contrario, ingrese cualquier otro  número ");
+            continuar = scan.nextInt();
+           
         }
->>>>>>> 5760fc22ba332b60deaf906dc6f2c923bb59dc50
+
+        scan.close();
     }
-    
+
+    public static void imprimePorPantalla(int not){
+
+            if(not > 92) {
+                System.out.println("Excelente!!!");
+            } else if (not > 84) {
+                System.out.println("Sobresaliente!!!");
+            }else if (not > 74){
+                System.out.println("Distinguido!!!!!!!!!");
+
+            }else if(not > 59) {
+                System.out.println("Bueno");
+            }else {
+                System.out.println("Desaprobado:C");
+            } 
+    }
 }
