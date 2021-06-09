@@ -11,7 +11,7 @@ public class Ejercicio1 {
 
         Scanner scan = new Scanner(System.in);
         ArrayList<String> ciudades = new ArrayList<>();
-        int continuar = 1;
+        
         boolean cont = true;
         do {
             System.out.print("Si quiere agregar una ciudad ingrese s/n: ");
@@ -26,7 +26,7 @@ public class Ejercicio1 {
 
                 case 'n':
                     cont = false;
-                    
+
                     break;
 
                 default:

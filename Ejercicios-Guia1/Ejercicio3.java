@@ -13,5 +13,4 @@ public class Ejercicio3 {
         n.close();
     }
 
-    public sta
 }
