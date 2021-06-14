@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-import java.util.Scanner;
-
 
 public class Ejercicio8 {
     
@@ -35,7 +33,7 @@ public class Ejercicio8 {
     }
 
    
-    class Persona{
+    public static class Persona{
         String nombreYApell;
         int edad;
         String ciudad;

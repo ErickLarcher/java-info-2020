@@ -1,4 +1,3 @@
-import java.util.ResourceBundle;
 
 public class Ejercicio2 {
     

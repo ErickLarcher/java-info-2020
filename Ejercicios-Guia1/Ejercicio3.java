@@ -6,11 +6,17 @@ public class Ejercicio3 {
     public static void main(String[] args){
         Scanner n = new Scanner(System.in);
 
-        int num;
+  
         //pide las entradas 
         System.out.println("Ingrese un numero entero: ");
-        num = n.nextInt(); 
+        int num = n.nextInt(); 
         n.close();
+
+        System.out.println(num / 10000);
+        System.out.println(num / 1000);
+        System.out.println(num / 100);
+        System.out.println(num / 10);
+
     }
 
 }
