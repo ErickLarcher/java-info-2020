@@ -17,6 +17,9 @@ public class Ejerciciio7 {
 
         scan.close();
 
+        fizzBuzz(n1, n2);
+
+
     }
 
      static Object[] fizzBuzz(int a, int b) {
