@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
+        "Ejercicios-Guia2",
         "Ejercicios-Guia1",
-        "Ejercicios-Guia2"
+        "propuestos_en_clase"
     ]
 }
